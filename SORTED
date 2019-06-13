@@ -1,0 +1,5 @@
+a=["bbbz","bbba","sssy","dddh","jjjd","jjjr"]
+sorted(a)
+def last(s):
+        return s[-1]
+sorted(a,key=last, reverse=True)
